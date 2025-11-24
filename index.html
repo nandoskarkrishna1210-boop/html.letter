@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css envelope + letter (open/close on click)</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+    <div class="container">
+     <div class="envelope-wrapper flap">
+        <div class="envelope">
+         <div class="letter">
+          <div class="text">
+           <h2><strong>Hey Dear Rasika.</strong></h2>
+           <h4><p>I wanted to tell you this for a long time… but I couldn’t abel to express it. So I’m writing this letter… I’m in love with you since the day I first saw you at the canteen the way Your simplicity just stolen my heart…❤ and I fell for you instantly.Whenever I see you… my heartbeat skips a beat💕 & when you say ‘Hi’… my entire day becomes beautiful.“Your smile😚 is so cute…that how can I tell you and your eyes speaks enough about you.😉 I never dated you… never asked you for a day-out… but still I’m in love with you.❤ i remembered you told me last time… we will be friends. And I respect that. But today… I want to ask you something from my heart❤. I want to spend my whole life with you, Rasika "would you like to be my lakshmi of my life?". Can I call you mine? I will wait for your reply dear.</p></h4>
+          <h4> <p class="k1">-----Krishna</p></h4>
+          </div>
+        </div>
+      </div>
+      <div class="heart"></div>
+     </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click',  () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+    <script src="index.js"></script>
+    
+</body>
+</html>
+
+
